@@ -32,5 +32,9 @@ sequences = pipeline(
     num_return_sequences=1,
     eos_token_id=tokenizer.eos_token_id,
 )
+
+output_text = ''
 for seq in sequences:
-    st.markdown(seq['generated_text'])
+    output_text = output_text + seq['generated_text']
+
+st.markdown(output_text)
