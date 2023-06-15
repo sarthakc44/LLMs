@@ -1,3 +1,5 @@
 Style-transfer using falcon-7b-instruct model.
 Change the style of input text to one of the 6 accents.
 Demo using Gradio libray and posted on hugging face spaces (https://huggingface.co/spaces/sarthakc44/falcon-style-transfer).
+
+NOTE: Most likely the app won't run on spaces because it uses a CPU with 16GB memory (free tier)
