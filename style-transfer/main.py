@@ -1,5 +1,5 @@
-from transformers import AutoTokenizer, AutoModelForCausalLM
 import transformers
+from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 import streamlit as st
 
