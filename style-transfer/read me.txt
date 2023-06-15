@@ -1,0 +1,3 @@
+Style-transfer using falcon-7b-instruct model.
+Change the style of input text to one of the 6 accents.
+Demo using Gradio libray and posted on hugging face spaces.
