@@ -1,4 +1,4 @@
-pip install transformers einops accelerate
+!pip install transformers einops accelerate
 
 import transformers
 from transformers import AutoTokenizer, AutoModelForCausalLM
