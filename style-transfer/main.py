@@ -5,7 +5,7 @@ import torch
 
 import streamlit as st
 
-"""
+
 model = "tiiuae/falcon-7b-instruct"
 
 tokenizer = AutoTokenizer.from_pretrained(model)
@@ -34,6 +34,3 @@ sequences = pipeline(
 )
 for seq in sequences:
     st.markdown(f"Result: {seq['generated_text']}")
-"""
-    
-st.text('hello')
