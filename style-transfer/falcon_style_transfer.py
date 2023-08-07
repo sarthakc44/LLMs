@@ -38,11 +38,11 @@ pipeline = transformers.pipeline(
     device_map="auto",
 )
 
-prompt = 'Paraphrase the following sentence delimited by curly brackets into'
-style = ' exaggerated victorian english: '
-input_text = '{' + 'Almost lunchtime. Time to eat!' + '}'
+#prompt = 'Paraphrase the following sentence delimited by curly brackets into'
+#style = ' exaggerated victorian english: '
+#input_text = '{' + 'Almost lunchtime. Time to eat!' + '}'
 
-text_prompt = prompt + style + input_text
+#text_prompt = prompt + style + input_text
 
 def llm(input_text, style):
   prompt = 'Paraphrase and change the style of the following sentence delimited by curly brackets into an exaggerated '
